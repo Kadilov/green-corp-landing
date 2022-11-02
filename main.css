@@ -43,7 +43,15 @@ button {
   transition: background-color 0.3s ease-in;
 }
 
+.orb-canvas {
+  position: absolute;
+  height: 100%;
+  top: 0; 
+  right: 0;
+}
+
 .about {
+  position: relative;
   display: flex;
   justify-content: space-around;
   align-items: center;
